@@ -1,0 +1,120 @@
+capitalize : first letter capital
+casefold : converts lower case
+center:center the word with given length
+count:number of occurance of given char in string
+encode : converts to other codes like UTF-8,16,32
+endswith : check the string with given char
+expandtabs: Expands the tab spaces to given length.
+find : index of given char in a string if not found returns -1
+format : formats the string for print.
+format_map : takes dictinary items and repalces in the given string.
+index : index of given char in a string other wise gives error.
+isalnum : checks the given string has alphabets and numerics.
+isalpha : Checks the given string has alphabets.
+isascii: checks the given string in ascii.
+isdecimal: checks the given string in decimal.
+isdigit : checks the given string in digits.
+isidentifier: checks the given string in identifier.
+islower: checks the given string in lower case.
+isnumeric: checks the given string in numeric.
+isprintable: checks the given string in printable.
+isspace: checks the given string is space.
+istitle: checks the given string has caps in each word.
+isupper: checks the given string in upper.
+join:Join the array of values with joiner operator.
+ljust:left justified
+lower: lower conversion
+lstrip: remove spaces left
+maketrans:creates a transformation tables with given values,this table can be used with translate method.
+partition:split the string based on the give value into 3 element array.
+removeprefix: removes the refirx value
+removesuffix:removes the suffix value
+replace:Replaces the chars in string with another char.
+rfind:right find
+rindex: right index
+rjust: right justified
+rpartition: right partition
+rsplit:right split:Splits the string form right based on the delim
+rstrip:right strip.remove the mentioned chars from right
+split : split
+splitlines : split the lines based on the new lines or seperator
+startswith: give string starts with mentioned char
+strip : removed the spaces
+swapcase: swap the cases
+title : converts to title
+translate : translate to another char based on maketrans method table
+upper: converts to upper
+zfill: fills with zeros based on the size mentioned.
+--------------------------List Methonds:
+Method			Description
+append()	Adds an element at the end of the list
+clear()		Removes all the elements from the list
+copy()		Returns a copy of the list
+count()		Returns the number of elements with the specified value
+extend()	Add the elements of a list (or any iterable), to the end of the current list
+index()		Returns the index of the first element with the specified value
+insert()	Adds an element at the specified position
+pop()		Removes the element at the specified position
+remove()	Removes the first item with the specified value
+reverse()	Reverses the order of the list
+sort()		Sorts the list
+--------------------------------set menthods-----------------------------
+Method			Shortcut			Description
+add()	 						Adds an element to the set
+clear()	 						Removes all the elements from the set
+copy()	 						Returns a copy of the set
+difference()		-			Returns a set containing the difference between two or more sets
+difference_update()	-=			Removes the items in this set that are also included in another, 
+								specified set
+discard()	 					Remove the specified item
+intersection()		&		Returns a set, that is the intersection of two other sets
+intersection_update()	&=	Removes the items in this set that are not present in other, specified set(s)
+isdisjoint()	 			Returns whether two sets have a intersection or not
+issubset()			<=		Returns whether another set contains this set or not
+					<		Returns whether all items in this set is present in other, specified set(s)
+issuperset()		>=		Returns whether this set contains another set or not
+					>		Returns whether all items in other, specified set(s) is present in this set
+pop()	 					Removes an element from the set
+remove()	 	            Removes the specified element
+symmetric_difference()	^	Returns a set with the symmetric differences of two sets
+symmetric_difference_update()	^=	Inserts the symmetric differences from this set and another
+union()	          |	Return a set containing the union of sets
+update()	    |=	Update the set with the union of this set and others
+
+
+--------------Tuple methods---------
+Method	Description
+count()	Returns the number of times a specified value occurs in a tuple
+index()	Searches the tuple for a specified value and returns the position of where it was found
+
+-------------------Dict methods-----------------------------
+Method			Description
+clear()			Removes all the elements from the dictionary
+copy()			Returns a copy of the dictionary
+fromkeys()		Returns a dictionary with the specified keys and value
+get()			Returns the value of the specified key
+items()			Returns a list containing a tuple for each key value pair
+keys()			Returns a list containing the dictionary's keys
+pop()			Removes the element with the specified key
+popitem()		Removes the last inserted key-value pair
+setdefault()	Returns the value of the specified key. If the key does not exist: insert the key, with the specified value
+update()		Updates the dictionary with the specified key-value pairs
+values()		Returns a list of all the values in the dictionary
+----------------File metionds--------
+Method		Description
+close()		Closes the file
+detach()	Returns the separated raw stream from the buffer
+fileno()	Returns a number that represents the stream, from the operating system's perspective
+flush()		Flushes the internal buffer
+isatty()	Returns whether the file stream is interactive or not
+read()		Returns the file content
+readable()	Returns whether the file stream can be read or not
+readline()	Returns one line from the file
+readlines()	Returns a list of lines from the file
+seek()		Change the file position
+seekable()	Returns whether the file allows us to change the file position
+tell()		Returns the current file position
+truncate()	Resizes the file to a specified size
+writable()	Returns whether the file can be written to or not
+write()		Writes the specified string to the file
+writelines()Writes a list of strings to the file
